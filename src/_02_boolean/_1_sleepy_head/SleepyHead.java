@@ -34,15 +34,18 @@ public class SleepyHead {
 
 		boolean passedExam;
 		// Write code to ask the user what percentage they scored in their last exam
-
+String percentage =JOptionPane.showInputDialog("what percentage did you score on your last exam? ");
 		
 		// If they scored more than 70, they passed the exam.
 		// Set the boolean passedExam based on their score.
-		
+		if (percentage > 70 ) { passedExam = true;
 		// If the user passed the exam, congratulate them
-		
+		JOptionPane.showMessageDialog(null, "good job");
 		// otherwise, wish them better luck next time.
-		
+if (percentage < 70) {
+	JOptionPane.showMessageDialog(null, "better luck next time");
+}
+}
 		
 		/************************  GAME OVER  **************************/
 
@@ -64,17 +67,19 @@ boolean gameIsOver = true;
 		
 		boolean isRed;
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
-		
-		
+		String color = JOptionPane.showInputDialog("what color do you want to draw with?");
+	if (color = "Red") { isRed = true;}
 		boolean isSquare;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
-		
-		
+		String shape = JOptionPane.showInputDialog("what shape do you want to draw");
+		if (shape = "Square" ) {isSquare = true ;}
+// ARE YOU THERE?	
+// SAVE YOUR CODE TO GITHUB AND SIGN OUT WHEN YOU ARE DONE!
 		// Now you MUST use the && operator to join the booleans for this code. 
 		// Ask your teacher if you are not sure how
 		// Use an if statement to ONLY draw a red square when it has been requested (use the method below)
 		// otherwise, tell the user you don't know how to draw that shape
-		
+		if  color = 
 
 	}
 
